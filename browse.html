@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Browse — ComicVerse</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="header">
+<div class="container nav">
+<div class="brand"><div class="logo"></div><div>ComicVerse Hub</div></div>
+<nav class="nav-links">
+<a href="index.html">Home</a>
+<a href="browse.html">Browse</a>
+<a href="cart.html">Cart <span id="cart-count" class="cart-badge">0</span></a>
+</nav>
+</div>
+</header>
+
+
+<main class="container">
+<div class="controls">
+<select id="filter-publisher" class="select"><option value="">All Publishers</option></select>
+<select id="filter-genre" class="select"><option value="">All Genres</option></select>
+<input id="search" class="input" placeholder="Search title or character">
+<select id="sort" class="select"><option value="release-desc">Newest</option><option value="price-asc">Price: Low-High</option><option value="title-asc">Title A-Z</option></select>
+</div>
+
+
+<section>
+<div id="browse-grid" class="grid"></div>
+</section>
+</main>
+
+
+<footer class="footer">© ComicVerse Hub — simulated store</footer>
+
+
+<script src="comics.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

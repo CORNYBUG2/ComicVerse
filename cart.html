@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cart — ComicVerse</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="header">
+<div class="container nav">
+<div class="brand"><div class="logo"></div><div>ComicVerse Hub</div></div>
+<nav class="nav-links">
+<a href="index.html">Home</a>
+<a href="browse.html">Browse</a>
+<a href="cart.html">Cart <span id="cart-count" class="cart-badge">0</span></a>
+</nav>
+</div>
+</header>
+
+
+<main class="container">
+<h2>Your Cart</h2>
+<div id="cart-list" class="cart-list"></div>
+<div class="total-row">
+<div>Total:</div>
+<div id="cart-total">$0.00</div>
+</div>
+<div style="margin-top:1rem;"><button id="checkout" class="btn">Checkout</button></div>
+</main>
+
+
+<footer class="footer">© ComicVerse Hub — simulated store</footer>
+
+
+<script src="comics.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
