@@ -83,26 +83,6 @@ GitHub Pages – Deployment
 
 No external frameworks, no APIs, no backend.
 
-Project Structure
-comicverse-hub/
-│
-├── index.html
-├── browse.html
-├── comic-detail.html
-├── cart.html
-│
-├── css/
-│   └── styles.css
-│
-├── js/
-│   └── main.js
-│
-├── assets/
-│   └── images/
-│       └── <comic covers, logo, placeholders>
-│
-└── comics.js
-
 How Data Works
 
 All comic data is defined in comics.js:
